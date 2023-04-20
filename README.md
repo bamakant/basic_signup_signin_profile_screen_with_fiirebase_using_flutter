@@ -1,16 +1,15 @@
 # kodehash_assignment
 
-A new Flutter project.
+A new Flutter project with SingIn, SignUp and Profile Screens and Firebase as a backend service.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with the application you must configure the Firebase first.
 
-A few resources to get you started if this is your first Flutter project:
+Follow till Step 2 from the below link:
+[Setup firebase] (https://firebase.google.com/docs/flutter/setup?platform=android)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+! [Login Screen] (screenshots/login_form_validation.png?raw=true "Login Screen")
+! [Sign up Screen] (screenshots/signup.png?raw=true "Sign up Screen")
+! [Profile Screen] (screenshots/profile_with_image.png?raw=true "Profile Screen")
