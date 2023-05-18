@@ -1,4 +1,4 @@
-# kodehash_assignment
+# basic_signup_signin_profile_screen_with_fiirebase_using_flutter
 
 A new Flutter project with SingIn, SignUp and Profile Screens and Firebase as a backend service.
 
