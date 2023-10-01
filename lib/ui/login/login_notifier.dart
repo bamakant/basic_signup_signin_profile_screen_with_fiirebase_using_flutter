@@ -86,8 +86,8 @@ class LoginNotifier with ChangeNotifier {
           .child('users')
           .orderByChild('email')
           .equalTo(emailController.text)
-          .onValue
-          .listen((event) {
+          .once()
+          .then((event) {
         DataSnapshot snapshot = event.snapshot;
         Map<dynamic, dynamic>? usersList =
             snapshot.value as Map<dynamic, dynamic>?;

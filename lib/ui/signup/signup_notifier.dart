@@ -4,7 +4,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:kodehash_assignment/config/route.dart';
 import 'package:kodehash_assignment/utils/string_utils.dart';
 import 'package:kodehash_assignment/utils/validation_utils.dart';
 
@@ -178,6 +177,7 @@ class SignUpNotifier with ChangeNotifier {
           content: Text("Update successful."),
         ),
       );
+      Navigator.pop(context);
     } else {
       //create new user
       try {
@@ -194,7 +194,7 @@ class SignUpNotifier with ChangeNotifier {
             content: Text("Sign up successful. Please login to continue."),
           ),
         );
-        Navigator.pushNamed(context, Routes.loginRoute);
+        Navigator.pop(context);
       } catch (e) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
